@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="regis.css">
+</head>
+<body>
+    <form>
+        <div class="back">
+            <div class="head"	>
+                <p>
+                    Registration
+                </p>
+            </div>
+
+            <div class="personal"	>
+
+                <label for="full">Full name</label><br>
+                <input type="text" placeholder="enter your name" class="full" required>
+
+            </div>
+            <div class="personal">
+                <label for="full">Username</label><br>
+                <input type="username" placeholder="enter your username" class="full" required>
+
+            </div>
+
+
+
+            <div class="personal">
+                <label for="full">E-mail</label><br>
+                <input type="text" placeholder="enter your mail" class="full" required>
+
+            </div>
+
+            <div class
+                ="personal">
+                <label for="full">Phone number</label><br>
+                <input type="text" placeholder="01234-56789" class="full" required pattern="{0-9}[5]-{0-9}[5]">
+
+            </div>
+
+            <div class
+                ="personal">
+                <label for="full">Password</label><br>
+                <input type="password" placeholder="enter your number" class="full" required>
+
+            </div>
+
+
+            <div class
+                ="personal">
+                <label for="full">Confirm Password</label><br>
+                <input type="password" placeholder="enter your number" class="full" required>
+
+            </div>
+            <div class="gender">
+                <p>
+                    Gender
+                </p>
+            </div>
+
+            <input type="radio" name="male">
+            <label for="male">Male</label>
+
+
+            <input type="radio" name="fmale">
+            <label for="fmale">Female</label>
+
+
+            <input type="radio" name="other">
+            <label for="other">Other</label>
+
+            <div class="button"	>
+                <input type="submit" value="Register" class="submit">
+            </div>
+
+
+
+
+        </div>
+    </form>
+
+</body>
+</html>
